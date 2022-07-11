@@ -16,6 +16,9 @@ const getInfo = async(event)=>{
         city_name.innerText = `Plz write the name before search`;
         datahide.classList.add('data_hide');
     }
+    }
+    }
+    }
     else{
         try{
             let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=8f369194adb9fd2bda31b15566a756b4`;
